@@ -51,7 +51,7 @@ all_trips_v2 <- all_trips_v2 %>% drop_na(ride_length)
 * **Casual riders perform twice as round trips as compared to annual member** (start_station_name == end_station_name)
 * Summer fests **(mainly in July and August)** in chicago leads to increase in demand of rides for both type of the members.
 
-`r
+`
 all_trips_v2$day_of_week <- ordered(all_trips_v2$day_of_week, levels=c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"))
 `</br>
 `r
