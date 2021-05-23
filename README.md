@@ -73,6 +73,32 @@ round_trips <- all_trips_v2 %>%
 
 ![](https://github.com/Kartik77/Cyclistic_Data_Analysis/blob/main/Plots/rides_weekday.png?raw=true)
 
+### Average ride duration for casual members is **almost three times** of annual members
+
+
+![](https://github.com/Kartik77/Cyclistic_Data_Analysis/blob/main/Plots/Average_Duration.png?raw=true)
+
+### **Docked Bike** most preferred one among the all
+
+
+![](https://github.com/Kartik77/Cyclistic_Data_Analysis/blob/main/Plots/ride_type_bike.png?raw=true)
+
+### **July and August**, these two months experience high demand in bikes over the region
+
+(may be because of summer fests)
+
+![](https://github.com/Kartik77/Cyclistic_Data_Analysis/blob/main/Plots/monthly_ride.png?raw=true)
+
+### **Station with round trip entries**, for testing bikes at these stations on regular time intervals
+
+
+![](https://github.com/Kartik77/Cyclistic_Data_Analysis/blob/main/Plots/round_trip.png?raw=true)
+
+### **Busiest Stations**, to keep a check on volume of bikes so that numbers satisfies the customer demands
+
+
+![](https://github.com/Kartik77/Cyclistic_Data_Analysis/blob/main/Plots/busiest.png?raw=true)
+
 ## Recommendations
 
 **Additional Data to be included** (Survey on happiness metric of annual members, are there any problems faced by casual riders, (if yes, what are those?) and also get to know the reason for not choosing annual membership program.
