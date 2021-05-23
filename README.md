@@ -66,6 +66,12 @@ round_trips <- all_trips_v2 %>%
   select(c(start_lat, start_lng, start_station_name, end_station_name, ride_length,member_casual)) %>%
   filter(start_station_name == end_station_name)
 `
+## Supporting Visualizations and key Findings
+
+### **Weekend (Saturday and Sunday)** -> High turnup of casual riders as compared to week days
+
+
+![](https://github.com/Kartik77/Cyclistic_Data_Analysis/blob/main/plots/rides_weekday.png?raw=true)
 
 ## Recommendations
 
