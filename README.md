@@ -71,7 +71,7 @@ round_trips <- all_trips_v2 %>%
 ### **Weekend (Saturday and Sunday)** -> High turnup of casual riders as compared to week days
 
 
-![](https://github.com/Kartik77/Cyclistic_Data_Analysis/blob/main/plots/rides_weekday.png?raw=true)
+![](https://github.com/Kartik77/Cyclistic_Data_Analysis/blob/main/Plots/rides_weekday.png?raw=true)
 
 ## Recommendations
 
