@@ -53,7 +53,7 @@ all_trips_v2 <- all_trips_v2 %>% drop_na(ride_length)
 
 `r
 all_trips_v2$day_of_week <- ordered(all_trips_v2$day_of_week, levels=c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"))
-`
+`</br>
 `r
 aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = mean)
 `
