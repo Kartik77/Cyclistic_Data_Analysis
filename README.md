@@ -36,10 +36,10 @@ Cyclistic marketing team needs to design marketing strategy to convert casual ri
 * Removed rows with **Start_station_name == HUBBARD ST BIKE CHECKING (LBS-WH-TEST)" | "WATSON TESTING - DIVVY" | "hubbard_test_lws"**
 * Created a new version of the dataframe (v2) since data is being removed.
 
-`r
-all_trips_v2 <- all_trips[!(all_trips$start_station_name == "HUBBARD ST BIKE CHECKING (LBS-WH-TEST)" | all_trips$start_station_name == "WATSON TESTING - DIVVY" | all_trips$start_station_name == "hubbard_test_lws" | all_trips$ride_length<0),]
 `
-`r
+all_trips_v2 <- all_trips[!(all_trips$start_station_name == "HUBBARD ST BIKE CHECKING (LBS-WH-TEST)" | all_trips$start_station_name == "WATSON TESTING - DIVVY" | all_trips$start_station_name == "hubbard_test_lws" | all_trips$ride_length<0),]
+`</br>
+`
 all_trips_v2 <- all_trips_v2 %>% drop_na(ride_length)
 `
 
@@ -54,14 +54,14 @@ all_trips_v2 <- all_trips_v2 %>% drop_na(ride_length)
 `
 all_trips_v2$day_of_week <- ordered(all_trips_v2$day_of_week, levels=c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"))
 `</br>
-`r
-aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = mean)
 `
-`r
+aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_trips_v2$day_of_week, FUN = mean)
+`</br>
+`
 table(all_trips_v2$month)
 table(all_trips$rideable_type)
+`</br>
 `
-`r
 round_trips <- all_trips_v2 %>%
   select(c(start_lat, start_lng, start_station_name, end_station_name, ride_length,member_casual)) %>%
   filter(start_station_name == end_station_name)
