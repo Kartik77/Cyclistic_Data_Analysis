@@ -23,7 +23,7 @@ Cyclistic marketing team needs to design marketing strategy to convert casual ri
 
 ## Description about data sources
 
-* Data was collected from the given link <https://divvy-tripdata.s3.amazonaws.com/index.html> provided by the Coursera platform in order to prepare a case study for the capstone project of Google Data Analytics Professional Degree Certification Program.
+* This Public Data was collected from the given link <https://divvy-tripdata.s3.amazonaws.com/index.html>.
 * Downloaded the **past 12 months data (May/2020 - April/2021)**
 * Data is reliable, original, comprehensive, cited and current.
 * Each monthly dataset have **13 variables** (ride_id, rideable_type, started_at, ended_at, start_station_name, end_station_name, start_station_id, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual)
